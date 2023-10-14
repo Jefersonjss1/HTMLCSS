@@ -1,0 +1,91 @@
+@import url('https://fonts.googleapis.com/css2?family=Black+Ops+One&family=Dancing+Script:wght@700&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+header{
+    width: 100%;
+    background-color: rgb(241, 227, 207);
+    background-image: url(../IMG/textura.jpg);
+    display: flex;
+    padding: 20px;
+    margin-bottom: 15px;
+    justify-content: space-between;
+}
+body{
+    background-image: url(../IMG/fundo.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#logo-mesa-brasil{
+    display: block;
+    width: 150px;
+    height: 108.5px;
+    margin: auto;
+}
+.imagem-opaca{
+    display: flex;
+    background-image: url(../IMG/torta-madalena.webp);
+    background-repeat: no-repeat;
+    width: 800px;
+    height: 200px;
+    margin: auto;
+    background-position: center;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+    color: white;
+    font-family: 'Dancing Script', cursive;
+    margin-bottom: 10px;
+}
+.conteiner{
+    display: block;
+    font-size: 20px;
+    text-align: justify;
+    width: 1200px;
+    padding: 25px;
+    background-color: white;
+    font-family: 'Dancing Script', cursive;
+    border-radius: 10px;
+    border: 5px solid black;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 25px;
+}
+.content{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    font-size: larger;
+}
+.conteudo{
+    width: 400px;
+}
+#torta{
+    display: block;
+    margin: auto;
+    margin-top: 50px;
+    width: 800px;
+    border-radius: 10px;
+}
+.paginas{
+    background-color: white;
+    border-radius: 10px;
+    border: 5px solid black;
+    padding: 10px;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 10px 650px;
+    border-radius: 10px;
+    font-family: 'Dancing Script', cursive;
+}
+.links{
+    display: flex;
+    justify-content: space-around;
+    font-size: x-large;
+}
+a{
+    text-decoration: none;
+    color: black;
+}

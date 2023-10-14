@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css2?family=Black+Ops+One&family=Dancing+Script:wght@700&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+header{
+    width: 100%;
+    background-color: rgb(241, 227, 207);
+    background-image: url(../IMG/textura.jpg);
+    display: flex;
+    padding: 20px;
+    margin-bottom: 15px;
+    justify-content: space-between;
+}
+body{
+    background-image: url(../IMG/fundo\ copy.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#logo-mesa-brasil{
+    display: block;
+    width: 150px;
+    height: 108.5px;
+    margin: auto;
+}
+.sobre{
+    background-color: white;
+    padding: 10px;
+    text-align: center;
+    margin: 10px 500px 10px 500px;
+    border-radius: 10px;
+    border: 5px solid black;
+    font-family: 'Dancing Script', cursive;
+    font-size: larger;
+}
+#funcionarios{
+    display: block;
+    width: 750px;
+    height: 450px;
+    margin: auto;
+    padding: 20px;
+}
+.sobre-continua{
+    background-color: white;
+    padding: 10px;
+    text-align: center;
+    margin: 10px 500px 10px 500px;
+    font-family: 'Dancing Script', cursive;
+    border-radius: 10px;
+    border: 5px solid black;
+    font-size: larger;
+}
+.paginas{
+    background-color: white;
+    border-radius: 10px;
+    border: 5px solid black;
+    padding: 10px;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 10px 500px 10px 500px;
+    border-radius: 10px;
+    
+}
+.links{
+    display: flex;
+    justify-content: space-around;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+#receita-torta{
+    display: block;
+    width: 600px;
+    height: 350px;
+    margin: auto;
+}

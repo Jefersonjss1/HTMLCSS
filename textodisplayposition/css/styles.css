@@ -1,0 +1,209 @@
+/* Alinhamento de texto */
+@import url('https://fonts.googleapis.com/css2?family=Pixelify+Sans:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Black+Ops+One&display=swap');
+
+.alinhamento-direita{
+    text-align: right;
+}
+.alinhamento-esquerda{
+    text-align: left;
+}
+.centralizar-container{
+    text-align: center;
+    width: 200px;
+    border: 4px solid salmon;
+}
+.alinhamento-justificado{
+    text-align: justify;
+    color: chocolate;
+    border: 3px solid salmon;
+    width: 200px;
+    margin: 10px;
+}
+.underline{
+    text-decoration: underline;
+}
+.line-through{
+    text-decoration: line-through;
+}
+.overline{
+    text-decoration: overline;
+}
+.remove-underline{
+    text-decoration: none;
+    color: chocolate;
+}
+.spacing{
+    letter-spacing: 10px;
+}
+.fonte-serif{
+    font-family: serif;
+}
+.fonte-sans-serif{
+    font-family: sans-serif;
+}
+.fonte-monospace{
+    font-family: monospace;
+}
+.fonte-cursive{
+    font-family: cursive;
+}
+.fonte-fantasy{
+    font-family: fantasy;
+}
+
+.trazendo-familiadefonte{
+    font-family: Arial, Helvetica, sans-serif;
+}
+/* Trazendo fonte do Google */
+.importando-fonte{
+    font-family: 'Pixelify Sans', cursive;
+}
+.importando-fonte2{
+    font-family: 'Black Ops One', cursive;
+}
+.normal{
+    font-style: normal;
+}
+.italic{
+    font-style: italic;
+}
+.oblique{
+    font-style: oblique;
+}
+.lighter, .hold, .bolder{
+    font-family: Helvetica;
+}
+.lighter{
+    font-weight: 100;
+}
+.bold{
+    font-weight: 600;
+}
+.bolder{
+    font-weight: 900;
+}
+.tamanho-30px{
+    font-size: 30px;
+}
+.tamanho-150px{
+    font-size: 150px;
+}
+.xx-small{
+    font-size: x-small;
+}
+.xx-large{
+    font-size: xx-large;
+}
+/* Display: Bloco Embutido */
+.inline-block{
+    height: 500px;
+    width: 500px;
+    background-color: #754;
+    font-size: xx-large;
+    color: white;
+    margin: 15px;
+    display: inline-block;
+}
+.block{
+    background-color: darkmagenta;
+    font-size: xx-large;
+    color: white;
+    margin: 10px;
+}
+/* Escondendo Elemento */
+.escondendo{
+    display: none;
+}
+/* Posição Estática ele segue o fluxo do HTML, static não é afetado por top, lef, right, bottom */
+.static{
+    background-color: #848;
+    color: white;
+    width: 100px;
+    height: 100px;
+    position: static;
+}
+.relative{
+    width: 100px;
+    height: 100px;
+    background-color: #333;
+    color: #fff;
+    position: relative;
+    top: 50px;
+    left: 50px;
+}
+/* Posição Absoluta */
+.absolute{
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    background-color: #785;
+    color: #fff;
+    top: 2px;
+    right: 2px;
+}
+/* Position Relative + Absolute */
+.bloco-relativo{
+    width: 250px;
+    height: 250px;
+    border: 2px solid blue;
+    margin-top: 100px;
+    position: relative;
+}
+.bloco-absoluto-1, .bloco-absoluto-2{
+    width: 70px;
+    height: 70px;
+    background-color: brown;
+    position: absolute;
+}
+.bloco-absoluto-1{
+    top: 2px;
+    left: 2px;
+}
+.bloco-absoluto-2{
+    bottom: 10px;
+    right: 10px;
+}
+/* Posição Fixada */
+.bloco-fixado{
+    width: 200px;
+    height: 200px;
+    background-color: blue;
+    position: fixed;
+    top: 100px;
+    color: #fff;
+}
+/* Posição Sticky */
+.sticky{
+    width: 150px;
+    height: 150px;
+    background-color: firebrick;
+    color: aliceblue;
+    border: 2px solid black;
+    position: sticky;
+    top: 10px;
+}
+/* Z-Index */
+.bloco-absoluto-5, .bloco-absoluto-6, .bloco-absoluto-7{
+    width: 60px;
+    height: 60px;
+    background-color: coral;
+    position: absolute;
+}
+.bloco-absoluto-5{
+    top: 0px;
+    left: 0px;
+    z-index: 2;
+}
+.bloco-absoluto-6{
+    top: 15px;
+    left: 15px;
+    background-color: darkgreen;
+    z-index: 1;
+}
+.bloco-absoluto-7{
+    top: 30px;
+    left: 30px;
+    background-color: lightseagreen;
+    z-index: 0;
+}

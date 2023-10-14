@@ -1,0 +1,245 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Black+Ops+One&family=Dancing+Script:wght@700&family=Rock+Salt&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background-image: url(../IMG/fundo.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#header{
+    display: flex;
+    height: 150px;
+}
+.cabecalho{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Rock Salt', cursive;
+}
+.sobre{
+    padding: 20px;
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+}
+.albuns{
+    padding: 20px;
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+}
+.trecho{
+    padding: 20px;
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+}
+.videos{
+    padding: 20px;
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+}
+.historia{
+    text-align: center;
+    color: rgb(255, 255, 255);
+}
+.paragrafo-historia{
+    text-align: center;
+    color: rgb(255, 255, 255);
+}
+.geral{
+    font-family: 'Rock Salt', cursive;
+    background-color: rgba(0, 0, 0, 0.404);
+    border-radius: 10px;
+    border: 5px solid black;
+    box-shadow: 10px 5px 5px black;
+}
+.titulo-albuns{
+    display: flex;
+    justify-content: center;
+    font-family: 'Rock Salt', cursive;
+    margin-top: 100px;
+    background-color: rgba(0, 0, 0, 0.404);
+    border-radius: 10px;
+    border: 5px solid black;
+    box-shadow: 10px 5px 5px black;
+    color: rgb(255, 255, 255);
+}
+#pri-album{
+    border-radius: 10px;
+    width: 250px;
+    margin-right: 250px;
+}
+#sec-album{
+    border-radius: 10px;
+    width: 250px;
+    margin-right: 250px;
+}
+#ter-album{
+    border-radius: 10px;
+    width: 250px;
+    margin-right: 250px;
+}
+#qua-album{
+    border-radius: 10px;
+    width: 250px;
+}
+.foto-albuns{
+    margin-top: 100px;
+    display: flex;
+    justify-content: space-around;
+}
+.ano-albuns{
+    display: flex;
+    justify-content: space-around;
+    color: white;
+    font-family: 'Rock Salt', cursive;
+    margin-bottom: 100px;
+}
+.avenged{
+    margin-right: 250px;
+}
+.hail{
+    margin-right: 250px;
+}
+.life{
+    margin-right: 250px;
+}
+.titulo-trechos{
+    display: flex;
+    justify-content: center;
+    font-family: 'Rock Salt', cursive;
+    margin-top: 100px;
+    background-color: rgba(0, 0, 0, 0.404);
+    border-radius: 10px;
+    border: 5px solid black;
+    box-shadow: 10px 5px 5px black;
+    color: rgb(255, 255, 255);
+    margin-bottom: 50px;
+}
+.primeiro-trecho{
+    color: white;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    font-family: 'Rock Salt', cursive;
+    background-color: rgba(0, 0, 0, 0.404);
+    border-radius: 10px;
+    border: 5px solid black;
+    box-shadow: 10px 5px 5px black;
+    width: 1000px;
+    margin: auto;
+    margin-bottom: 20px;
+}
+.letra-msc{
+    display: block;
+    width: 600px;
+}
+#nightmare{
+    border-radius: 10px;
+    width: 250px;
+}
+.segundo-trecho{
+    color: white;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    font-family: 'Rock Salt', cursive;
+    background-color: rgba(0, 0, 0, 0.404);
+    border-radius: 10px;
+    border: 5px solid black;
+    box-shadow: 10px 5px 5px black;
+    width: 1000px;
+    margin: auto;
+}
+#avengedseven{
+    border-radius: 10px;
+    width: 250px;
+}
+.titulo-videos{
+    display: flex;
+    justify-content: center;
+    font-family: 'Rock Salt', cursive;
+    margin-top: 100px;
+    background-color: rgba(0, 0, 0, 0.404);
+    border-radius: 10px;
+    border: 5px solid black;
+    box-shadow: 10px 5px 5px black;
+    color: rgb(255, 255, 255);
+}
+.video-1{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 10px;
+}
+.video-2{
+    display: flex;
+    justify-content: space-around;
+}
+.clipe-1{
+    display: block;
+    width: 800px;
+    margin-top: 10px;
+}
+.clipe-2{
+    display: block;
+    width: 850px;
+}
+.clipe-3{
+    display: block;
+    width: 800px;
+}
+.clipe-4{
+    display: block;
+    width: 840px;
+}
+.nome-musica-1{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 100px;
+    color: #fff;
+    font-family: 'Rock Salt', cursive;
+    background-color: rgba(0, 0, 0, 0.404);
+    border-radius: 10px;
+    border: 5px solid black;
+    box-shadow: 10px 5px 5px black;
+    color: rgb(255, 255, 255);
+    margin-bottom: 5px;
+}
+.redes{
+    display: flex;
+    justify-content: center;
+}
+#face{
+    height: 50px;
+}
+#insta{
+    height: 50px;
+}
+.guia{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 100px;
+    color: #fff;
+    font-family: 'Rock Salt', cursive;
+    background-color: rgba(0, 0, 0, 0.404);
+    border-radius: 10px;
+    border: 5px solid black;
+    box-shadow: 10px 5px 5px black;
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+.sticky{
+    border-color: rgb(132, 0, 255);
+    border-radius: 50%;
+    position: fixed;
+    bottom: 15px;
+    right: 15px;
+    width: 100px;
+    height: 100px;
+    background-image: url(../IMG/bubble-chat.png);
+}

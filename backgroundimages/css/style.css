@@ -1,0 +1,142 @@
+.bgimage{
+    background-image: url(../img/96b40688-5c43-4f0d-8494-1cc239b8734c.jpg);
+    padding: 10px;
+    color: yellow;
+}
+.bgimg-naocentral, .bgimg-central{
+    background-image: url(../img/5cdb0aeb-dfca-43bd-952a-32c1a87598f2.jpg);
+    width: 400px;
+    height: 400px;
+}
+.bgimg-central{
+    background-position: center;
+    background-size: cover;
+}
+/* Altura e Largura */
+.altura-largura{
+    height: 500px;
+    width: 200px;
+    background-color: blueviolet;
+}
+.altura-largura-nova{
+    height: 200px;
+    background-color: #999;
+}
+/* Padding */
+.sem-padding{
+    background-color: aqua;
+    padding: none;
+    height: 200px;
+    width: 200px;
+}
+.com-padding{
+    height: 300px;
+    width: 300px;
+    background-color: blueviolet;
+    padding: 10px;
+}
+.padding-lados{
+    background-color: crimson;
+    color: #fff;
+    padding-top: 10px;
+    padding-left: 150px;
+    padding-right: 5px;
+    padding-bottom: 40px;
+}
+/* Shorthand Properties - Propriedade Abreviada */
+.shorthand-padding{
+    background-color: #333;
+    padding: 6px 12px 18px 24px;
+}
+.shorthand-padding-2{
+    background-color: #555;
+    color: blue;
+    padding: 10px 20px; /*É o mesmo que 
+    padding: 10px 20px 10px 20px;*/
+}
+
+/* Borda */
+
+.border{
+    border: 5px solid blue;
+    padding: 10px;
+}
+.border-2{
+    border: 2px dotted #785;
+    padding: 25px;
+}
+/* Borda individual por lados */
+
+.borda-esquerda{
+    border-left: 3px solid yellowgreen;
+    background-color: #111;
+    color: #fff;
+    padding: 25px;
+}
+.borda-inferior{
+    border-bottom: 7px double #548;
+    background-color: #111;
+    color: #fff;
+    padding: 25px;
+}
+.borda-superior{
+    border-top: 5px dotted red;
+    background-color: #111;
+    color: #fff;
+    padding: 25px;
+}
+.borda-direita{
+    border-right: 10px dashed pink;
+    background-color: cornflowerblue;
+    color: pink;
+    padding: 25px;
+}
+/* Borda diferente em todos os lados */
+.borda-total{
+    border-left: 5px double rgb(0, 255, 170);
+    border-right: 5px solid yellow;
+    border-top: 5px dotted salmon;
+    border-bottom: dashed orange;
+    background-color: #000;
+    color: #fff;
+    padding: 25px;
+}
+.paragrafo-arredondado{
+    border: 5px solid red;
+    background-color: burlywood;
+    color: white;
+    padding: 20px;
+    border-radius: 20px;
+    margin-bottom: 10px;
+}
+.paragrafo-arredondado-2{
+    background-color: burlywood;
+    color: royalblue;
+    padding: 20px;
+    border-radius: 20px;
+}
+.margem{
+    margin: 10px;
+    background-color: darkblue;
+    color: yellow;
+}
+.margem-no-topo{
+    margin-top: 70px;
+    background-color: dodgerblue;
+    padding: 10px;
+}
+.margem-diferenciada{
+    background-color: cornflowerblue;
+    margin: 7px 10px 9px 30px;
+}
+/* Box Model - Juntos */
+.box-model{
+    background-color: aqua;
+    color: #000;
+    width: 200px;
+    height: 200px;
+    padding: 10px 10px 15px 25px;
+    border: 5px solid violet;
+    border-radius: 10px;
+    margin: auto;
+}
